@@ -1,0 +1,6 @@
+services:
+  gp:
+    build: .
+    volumes:
+      - ./data:/app/data
+    command: python -u src/main.py
